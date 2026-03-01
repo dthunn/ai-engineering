@@ -35,6 +35,7 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "requests" },
     { name = "scipy" },
+    { name = "tiktoken" },
     { name = "tqdm" },
     { name = "transformers" },
 ]
@@ -58,6 +59,7 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "requests", specifier = ">=2.32.5" },
     { name = "scipy", specifier = ">=1.17.0" },
+    { name = "tiktoken", specifier = ">=0.12.0" },
     { name = "tqdm", specifier = ">=4.67.3" },
     { name = "transformers", specifier = ">=5.2.0" },
 ]
