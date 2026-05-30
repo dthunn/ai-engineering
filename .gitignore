@@ -9,3 +9,4 @@ wheels/
 .env
 .idea
 prices.db
+uv.lock
