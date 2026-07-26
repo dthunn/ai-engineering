@@ -76,7 +76,7 @@ def lambda_handler(event,context):
     summary = generate_summary_from_bedrock(text_content)
 
     if summary:
-        current_time = datetime.now().strftime('%H%M%S') #UTC TIME, NOT NECCESSARILY YOUR TIMEZONE
+        current_time = datetime.now().strftime('%H%M%S')
         s3_key = f'summary-output/{current_time}.txt'
         s3_bucket = 'bedrock-course-bucket'
 
