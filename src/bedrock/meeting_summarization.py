@@ -60,7 +60,7 @@ def save_summary_to_s3_bucket(summary, s3_bucket, s3_key):
         print("Error when saving the summary to s3")
 
 
-def lambda_handler(event,context):
+def lambda_handler(event):
 
     decoded_body = base64.b64decode(event['body'])
 
